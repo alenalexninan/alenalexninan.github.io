@@ -117,23 +117,46 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://alenalexninan.github.io/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/tags/automation/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/categories/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/tags/cofiguration/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/tags/computer/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/categories/emacs/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/posts/software/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/posts/software/how_i_setup_the_webpage/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/posts/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/tags/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
+  </url><url>
+    <loc>https://alenalexninan.github.io/tags/website/</loc>
+    <lastmod>2022-04-03T09:59:14+05:30</lastmod>
   </url><url>
     <loc>https://alenalexninan.github.io/notes/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://alenalexninan.github.io/posts/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-  </url><url>
     <loc>https://alenalexninan.github.io/notes/bash/</loc>
-  </url><url>
-    <loc>https://alenalexninan.github.io/categories/</loc>
   </url><url>
     <loc>https://alenalexninan.github.io/notes/go/</loc>
   </url><url>
     <loc>https://alenalexninan.github.io/search/</loc>
     <priority>0.1</priority>
-  </url><url>
-    <loc>https://alenalexninan.github.io/tags/</loc>
   </url>
 </urlset>

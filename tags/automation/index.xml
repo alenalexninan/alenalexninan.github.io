@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Alen&#39;s Blog</title>
-    <link>https://alenalexninan.github.io/posts/</link>
-    <description>Recent content in Posts on Alen&#39;s Blog</description>
+    <title>automation on Alen&#39;s Blog</title>
+    <link>https://alenalexninan.github.io/tags/automation/</link>
+    <description>Recent content in automation on Alen&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2022 09:59:14 +0530</lastBuildDate><atom:link href="https://alenalexninan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <item>
+    <lastBuildDate>Sun, 03 Apr 2022 09:59:14 +0530</lastBuildDate><atom:link href="https://alenalexninan.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>How I setup the webpage</title>
       <link>https://alenalexninan.github.io/posts/software/how_i_setup_the_webpage/</link>
       <pubDate>Sun, 03 Apr 2022 09:59:14 +0530</pubDate>

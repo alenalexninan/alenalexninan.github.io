@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How I setup the webpage</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+
+<meta property="og:title" content="How I setup the webpage" />
+<meta property="og:description" content="This website is my personal portfolio and blog. It uses Hugo framework, Emacs, Org-mode, Org-roam and OX-hugo for managing website.
+Brief overview of myself: I am Flow Assurance Team lead in ExxonMobil India. I have worked on various greenfiled and brownfiled projects as FA lead or as independent contributor.
+What can you expect here? This website is a location for me to discuss various topics I learned. The blog is a place for me to dump all my learning and ideas." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alenalexninan.github.io/posts/software/how_i_setup_the_webpage/" /><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2022-04-03T09:59:14+05:30" />
+
+
+
+    
+    
+<meta name="description" content="How I setup the webpage" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      Alen&#39;s Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://alenalexninan.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/alen_hu1178075f42f50d07db13466a9a2b74e2_1184193_120x120_fit_q75_box.JPG' alt="Author Image">
+          <h5 class="author-name">Alen Alex Ninan</h5>
+          <p>Sunday, April 3, 2022</p>
+        </div>
+
+        <div class="title">
+          <h1>How I setup the webpage</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+            <ul>
+            
+            
+            <li class="rounded"><a href="/tags/cofiguration" class="btn, btn-sm">cofiguration</a></li>
+            
+            
+            <li class="rounded"><a href="/tags/automation" class="btn, btn-sm">automation</a></li>
+            
+            
+            <li class="rounded"><a href="/tags/computer" class="btn, btn-sm">computer</a></li>
+            
+            
+            <li class="rounded"><a href="/tags/website" class="btn, btn-sm">website</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>This website is my personal portfolio and blog. It uses Hugo framework, Emacs, Org-mode, Org-roam and OX-hugo for managing website.</p>
+<h2 id="brief-overview-of-myself">Brief overview of myself:</h2>
+<p>I am Flow Assurance Team lead in ExxonMobil India. I have worked on various greenfiled and brownfiled projects as FA lead or as independent contributor.</p>
+<h2 id="what-can-you-expect-here">What can you expect here?</h2>
+<p>This website is a location for me to discuss various topics I learned. The blog is a place for me to dump all my learning and ideas. I would Like to use this as a platform for me to try explain everything I know or learned so that I can reinforce my knowleadge. I know its a selfish thought, but I expect it to useful to anyone who has any interest in Chemical Engineering and Flow Assurance Engineering.</p>
+<h2 id="how-i-setup-the-webnsite">How I setup the webnsite?</h2>
+<p>I am using HUGO framework to power the site. Its a free opne-source site generator which can be used if you are savy enough to put some effort to learn yaml or toml. It can be used to generate various static sites that are very fast and beautiful.</p>
+<ul>
+<li>am working on linking up my <a href="https://www.orgroam.com/">org-roam</a> database to the blog/notes section of the site so that I can use it and orgmode along with the <a href="https://github.com/kaushalmodi/ox-hugo">ox-hugo</a> extension to build the site.</li>
+</ul>
+<h2 id="my-emacs-configuration">My Emacs configuration</h2>
+<p>This part is still under works and will be updated as soon as I have finalised the workflow.</p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Share on:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f&text=How%20I%20setup%20the%20webpage&via=Alen%27s%20Blog" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f&title=How%20I%20setup%20the%20webpage" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f&title=How%20I%20setup%20the%20webpage" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=How%20I%20setup%20the%20webpage https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=How%20I%20setup%20the%20webpage&body=https%3a%2f%2falenalexninan.github.io%2fposts%2fsoftware%2fhow_i_setup_the_webpage%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/alenalexninan/alenalexninan.github.io/edit/source/content/posts%5cSoftware%5chow_I_setup_the_webpage.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#brief-overview-of-myself">Brief overview of myself:</a></li>
+    <li><a href="#what-can-you-expect-here">What can you expect here?</a></li>
+    <li><a href="#how-i-setup-the-webnsite">How I setup the webnsite?</a></li>
+    <li><a href="#my-emacs-configuration">My Emacs configuration</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://alenalexninan.github.io/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://alenalexninan.github.io/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://alenalexninan.github.io/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://alenalexninan.github.io/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://alenalexninan.github.io/#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:alenalexninan@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>alenalexninan@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>Email for number</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">Copyright (C) 2022 by Alen Alex Ninan.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
